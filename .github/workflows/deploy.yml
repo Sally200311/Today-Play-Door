@@ -25,7 +25,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          # 移除 cache: 'npm' 以避免找不到 package-lock.json 時報錯
+          # 移除了 cache: 'npm' 設定，因為儲存庫中沒有 package-lock.json
 
       - name: Install dependencies
         run: npm install
