@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Copy of Should I Go Out Today?",
+  "description": "A simple and elegant web app to help you decide whether to go out or stay in based on your mood, the weather, or any other reason, powered by Gemini.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
